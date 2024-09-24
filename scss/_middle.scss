@@ -1,0 +1,23 @@
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.middle-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #141024;
+    padding: 0 100px;
+    padding-top: 93px;
+}
+.middle-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 120px 100px;
+}

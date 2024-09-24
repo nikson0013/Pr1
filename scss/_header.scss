@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 0 100px;
+    background-color: #141024;
+}
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.header-nav__item {
+    font-family: $jost;
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 160%;
+    text-align: center;
+    color: #fff;
+    &:hover {
+        color: grey;
+    }
+}
+.header__tel {
+    font-family: $jost;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    text-align: right;
+    color: #fff;
+    &:hover {
+        color: grey;
+    }
+}
+.header__tel-icon {
+    display: none;
+}

@@ -1,0 +1,24 @@
+$jost: "Jost", sans-serif;
+
+* {
+    font-family: $jost;
+    margin: 0;
+    padding: 0;
+    a {
+        text-decoration: none;
+        color: black;
+        &:hover &:visited  {
+            text-decoration: none;
+            color: black;
+        }
+    }
+    scroll-behavior: smooth
+}
+
+@import 'header';
+@import 'content';
+@import 'middle';
+@import 'burger';
+@import 'about-school';
+
+@import 'media';
